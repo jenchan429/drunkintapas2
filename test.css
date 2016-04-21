@@ -1,0 +1,253 @@
+body {   /* Body ID */
+padding: 40px 40px;
+border: beige 2px solid;
+height: auto;
+}
+
+
+@font-face { /* Local Font */
+    font-family: Scripalt;
+    src: url("SCRIPTIN.ttf");
+
+}
+
+#background {
+    
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Scripalt ;
+    font-size: 350%; 
+    color: white;
+    margin-top: -35px;
+    margin-bottom: -8px;
+}
+
+
+h2
+{
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 150%;
+    color: white;
+    letter-spacing: 2px;
+    margin: -2px -2px 4px -2px; 
+    
+}
+
+h3
+{   
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 350%;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 30px;
+}    
+
+h6 {
+    text-align:center;
+    font-size: 40px;
+    font-family:'Nothing You Could Do', cursive;
+    color:white;
+}
+
+p.eventfont {
+    font-size: 20px;
+    background-color:white;
+    opacity:.7;
+    font-family:'Nothing You Could Do', cursive;
+}
+
+.header {
+    text-align:center;
+    
+}
+
+
+.nav {
+text-align:center;	
+padding: 0;
+background-color: #575A5E;
+font-family: 'Nothing You Could Do', cursive;
+font-size:1.5em;
+border-radius: 25px;
+}
+
+
+
+.nav ul {
+    list-style-type:none;
+	margin: 0 auto;
+	padding: 0; 
+}
+
+.nav li {
+    display: inline-block;
+}
+.nav li a:link, .nav li a:visited {
+    text-decoration:none;
+    width:100%;
+    display:block;
+    background-color:inherit;
+    color:white;
+    padding: 8px 4px 4px 8px;
+    
+	border-right: 1px solid #ccc; 
+	clear: both;
+	
+}
+
+.nav li a:hover, .nav li a:active {
+    background-color:#0090D2;
+    color: pink;
+}
+
+.text {
+    text-align: center;
+    font-family:'Nothing You Could Do', cursive;
+    font-size: 1.5em;
+}
+
+.drinkmenubody {
+    background-color: beige;
+    opacity: .5;
+    
+}
+
+
+
+.container img{
+    height: 500px;
+    width: 1000px;
+    margin: 10px 120px 20px 90px;
+    position: center center;
+    border: 10px solid #575A5E;
+    border-radius: 25px;
+  
+    
+}
+
+.main {
+    text-align:center;
+}
+
+img.medium {
+    width:50%;
+    height:auto;
+}
+
+#list ul {
+    
+       font-family: 'Nothing You Could Do', cursive;
+       font-size: 28px;
+       color: #F6F4F3;
+       list-style-type: none;
+       text-align: left;
+       height: 1658px;
+       width: 1108px;
+      border: solid 10px black;
+      background-image: url("tapas1.jpg");
+      
+      
+ 
+       
+       
+
+}
+
+.floating-box img{
+    float:left;
+    display: inline-block;
+    height: 200px;
+    width: 260px;
+    
+    
+    
+    
+    
+}
+
+#list ul li p {
+    list-style-type: none;
+    text-align: left;
+    margin:10px;
+    padding:10px;
+     top:10px;
+    position: left;
+    float: bottom;
+    /* Was not sure about color to use so that text is visible*/
+    
+     
+}
+   
+
+    
+.footer {
+    background-color: #575A5E;
+    margin-top:50px;
+    padding:.5px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1em;
+    color: white;
+    border-radius: 25px;
+    text-align:center;
+    
+    
+
+}
+
+.title {
+    text-align:center;
+}
+
+.footer ul {
+    list-style-type:none;
+    width:100%;
+    height:auto;
+}
+
+.footer li {
+ display:inline;
+
+}
+.drinkmenubody{
+    text-align:center;
+    font-family: 'Nothing You Could Do', cursive;
+}
+.liq{
+    width:50%; /*unnecessary class, but page works better with this line of code*/
+    height:auto;
+    position: absolute;
+    left:-170px;
+    top:350px;
+    display: inline-block;
+}
+h8 h9{
+    font-size: 30px;
+}
+
+.alc{
+    position:absolute;
+    left:0; 
+    display: inline;
+    width:20%;
+}
+
+
